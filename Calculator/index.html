@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator-grid">
+      <div class="output-screen">
+        <!-- <div class="previous-operand">134</div> -->
+        <!-- <div class="current-operand">546</div> -->
+      </div>
+      <div class="button-container">
+        <button class="span-two">AC</button>
+        <button>DEL</button>
+        <button>&divide;</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-number>0</button>
+        <!-- <script>
+          const calculatorGrid = document.querySelector(".calculator-grid");
+
+          for (let i = 1; i <= 9; i++) {
+            const button = document.createElement("button");
+            button.textContent = i;
+            button.setAttribute("data-number", i);
+            calculatorGrid.appendChild(button);
+          }
+        </script> -->
+        <button data-operation>.</button>
+        <button data-operation>+</button>
+        <button data-operation>-</button>
+        <button data-operation>*</button>
+        <button data-operation class="span-two-equal">=</button>
+      </div>
+    </div>
+  </body>
+</html>
