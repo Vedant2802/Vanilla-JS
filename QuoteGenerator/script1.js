@@ -22,7 +22,7 @@ const quotes = [
   },
   {
     author: "Mark Twain",
-    quote: "The secret of getting ahead is getting started.",
+    quote: "The secret ofhttps://github.com/Vedant2802/Vanilla-JS.git getting ahead is getting started.",
   },
   {
     author: "Oscar Wilde",
