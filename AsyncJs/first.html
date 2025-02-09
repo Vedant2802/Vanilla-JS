@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Asynchronous Javascript</h1>
+    <button id="start">Stop</button>
+    <script>
+      const sayMyName = function () {
+        console.log("Akshat");
+      };
+      setTimeout(sayMyName, 2000);
+      //   let selected = document.querySelector("h1");
+      //   selected.textContent = "This is Asynchronous JavaScript";
+      //   let tagName = document.getElementsByTagName("h1");
+      //   console.log(tagName);
+      //   console.log(tagName);
+      //   console.log(selected);
+
+      //   const interval = setInterval(function () {
+      //     console.log("Akshat Vedant");
+      //     clearInterval(interval);
+      //   }, 2000);
+      //   clearInterval(interval);
+      const changeText = () => {
+        let selected = document.querySelector("h1");
+        selected.textContent = "This is Asynchronous JavaScript";
+      };
+      let changeMe = setInterval(changeText, 2000);
+      let buttonId = document.getElementById("start");
+      console.log(buttonId);
+      buttonId.addEventListener("click", () => {
+        console.log("buttonClicked");
+        clearTimeout(changeMe);
+      });
+      //   clearTimeout(changeMe);
+    </script>
+  </body>
+</html>

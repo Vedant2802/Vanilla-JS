@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Asynchronous Javascript</h1>
+    <button id="stop">Stop</button>
+    <script>
+      const todayDate = (name) => console.log(Date.now(), name);
+
+      let intervalId = setInterval(() => {
+        return todayDate("Akshat");
+        // clearInterval(intervalId);
+      }, 2000);
+      let buttonId = document.getElementById("stop");
+      buttonId.addEventListener("click", (event) => {
+        // console.log(event.srcElement.id);
+        clearInterval(intervalId);
+      });
+      //   clearInterval(intervalId);
+    </script>
+  </body>
+</html>
+
+<!-- Important thing to remember here is that the Async functions espects the function reference as callbacks or handler no the actual function invokation or calling the function -->
