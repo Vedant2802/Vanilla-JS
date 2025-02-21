@@ -1,0 +1,18 @@
+.my-button {
+  background: grey;
+  font-size: 4rem;
+  border: none;
+  border-radius: 16px;
+  padding: 10px 15px;
+  height: 300px;
+  width: 300px;
+}
+
+.enabled {
+  background-color: blue;
+  color: white;
+}
+
+.hover {
+  font-weight: bold;
+}

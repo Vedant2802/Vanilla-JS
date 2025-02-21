@@ -57,5 +57,5 @@
 
 // children
 
-const element = document.getElementById("fruits");
-console.log(element.childNodes);
+// const element = document.getElementById("fruits");
+// console.log(element.childNodes);
