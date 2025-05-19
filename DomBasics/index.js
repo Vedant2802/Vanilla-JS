@@ -1,4 +1,4 @@
-//document.getElementNyId returns a Element or NULL
+//document.getElementById returns a Element or NULL
 //document.getElementsClassName returns a HTML COllection
 //document.getElementsByTagName returns a HTML COllection
 //document.querySelector() returns a Element or NULL
