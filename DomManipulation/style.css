@@ -1,5 +1,24 @@
-.box {
+/* .box {
   border: 3px solid;
   width: 100%;
   height: 125px;
+} */
+
+.main-class {
+  font-size: large;
+  padding: 2px;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.secondary-class {
+  font-size: large;
+  padding: 2px;
+  border: 2px solid green;
+  border-radius: 12px;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
 }
