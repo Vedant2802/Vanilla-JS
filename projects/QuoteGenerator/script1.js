@@ -22,7 +22,8 @@ const quotes = [
   },
   {
     author: "Mark Twain",
-    quote: "The secret ofhttps://github.com/Vedant2802/Vanilla-JS.git getting ahead is getting started.",
+    quote:
+      "The secret ofhttps://github.com/Vedant2802/Vanilla-JS.git getting ahead is getting started.",
   },
   {
     author: "Oscar Wilde",
@@ -104,8 +105,8 @@ person.style.color = "blue";
 newquoteButton.addEventListener("click", function () {
   let random = Math.floor(Math.random() * quotes.length);
   //   quote.innerText = quotes[random].quote;
-  console.log(random);
+  // console.log(random);
   quotation.innerText = quotes[random].quote;
   person.innerText = quotes[random].author;
-  console.log("button cliked");
+  // console.log("button cliked");
 });
