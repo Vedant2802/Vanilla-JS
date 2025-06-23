@@ -95,10 +95,10 @@ const quotes = [
     quote:
       "Wise men speak because they have something to say; fools because they have to say something.",
   },
-  {
-    author: "John Lennon",
-    quote: "Life is what happens when you’re busy making other plans.",
-  },
+  // {
+  //   author: "John Lennon",
+  //   quote: "Life is what happens when you’re busy making other plans.",
+  // },
 ];
 // Setting color for the author
 person.style.color = "blue";
